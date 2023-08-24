@@ -7,7 +7,8 @@ This is the Week-1-Challenge where I demonstrate my capabilities to debug pre-ex
 ## Links
 
 Github Repo - https://github.com/Jaysahhn/Week-1-Challenge
-Deployed Website - 
+Deployed Website - https://jaysahhn.github.io/Week-1-Challenge/
+![Alt text](Week-1-Challenge-Screenshot.jpg)
 
 ## Usage
 
