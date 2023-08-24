@@ -1,10 +1,13 @@
-# Week-1-Challenge
-
-# Horiseon-Challenge
+# W1-Horiseon-Challenge
 
 ## Description
 
 This is the Week-1-Challenge where I demonstrate my capabilities to debug pre-existing code to fix the Horiseon Webpage.
+
+## Links
+
+Github Repo - https://github.com/Jaysahhn/Week-1-Challenge
+Deployed Website - 
 
 ## Usage
 

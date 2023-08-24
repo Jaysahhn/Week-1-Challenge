@@ -1,4 +1,5 @@
 * {
+    /*universal selector selects everything*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -6,9 +7,11 @@
 
 body {
     background-color: #d9dcd6;
+    /*Changes background of webpage to a tiny bit darker "off-white"*/
 }
 
 .header {
+    /*Top of the page containing the header and nav bar*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,19 @@ body {
 }
 
 .header h1 {
+    /*mods "Horiseon" at the top*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
     color: white;
+    /*Changed color of "seo" to full white so that it matches the rest of the header*/
 }
 
 .header nav {
+    /*mods the nav bar in the header to move links to the right, changes spacing, font, and font size*/
+
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -41,16 +48,20 @@ body {
     margin-left: 25px;
 }
 
+/*everything .header is basically list containing the nav bar selections. They are clickable and function.*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /*paragraph. changes the font of everything in the containers below the main picture*/
     font-size: 16px;
 }
 
 .hero {
+    /*big picture. no changes needed*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,11 +71,13 @@ p {
 }
 
 .float-left {
+    /*positions the pictures in the containers below .hero*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*positions the pictures in the container below .hero*/
     float: right;
     margin-left: 25px;
 }
@@ -74,6 +87,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/*everything .benefits is contained within the aside container. all the .benefits code below modifies positioning, size, and fonts*/
 
 .benefits {
     margin-right: 20px;
@@ -135,6 +150,7 @@ p {
 }
 
 .search-engine-optimization {
+    /*modifies the container of id .search-engine-optimization to change what is happening in container*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +160,7 @@ p {
 }
 
 .online-reputation-management {
+    /*modifies the container of id .online-reputation-management to change what is happening in container*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +170,7 @@ p {
 }
 
 .social-media-marketing {
+    /*modifies the container of id .social-media-marketing to change what is happening in container*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,6 +179,7 @@ p {
     color: #ffffff;
 }
 
+/*lines 176-201 modifies size of headers and images*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,6 +207,7 @@ p {
     font-size: 36px;
 }
 
+/*.footer is simply the the few words and heart at the bottom of the page. code changes positioning + font*/
 .footer {
     padding: 30px;
     clear: both;
@@ -196,5 +216,6 @@ p {
 }
 
 .footer h4 {
+    /*changes the footer heading font size*/
     font-size: 20px;
 }
